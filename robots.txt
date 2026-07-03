@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /rendez-vous.html
+
+Sitemap: https://raivo.fr/sitemap.xml

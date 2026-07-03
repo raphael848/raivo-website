@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RAIVO – Conseil digital & automatisation IA à Toulouse | Raphaël Poirier</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<meta name="description" content="Conseil en performance digitale, automatisation IA et direction de projet pour TPE, PME et startups. Basé à Toulouse, intervention en France. Premier échange offert.">
+<meta name="keywords" content="conseil digital Toulouse, direction de projet externalisée, prospection digitale, automatisation IA, n8n, consultant performance digitale">
+<meta name="author" content="Raphaël Poirier, RAIVO">
+<link rel="canonical" href="https://raivo.fr/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://raivo.fr/">
+<meta property="og:title" content="RAIVO – Conseil digital & automatisation IA à Toulouse | Raphaël Poirier">
+<meta property="og:description" content="Conseil en performance digitale, automatisation IA et direction de projet pour TPE, PME et startups. Basé à Toulouse, intervention en France. Premier échange offert.">
+<meta property="og:image" content="assets/og-image.jpg">
+<meta property="og:site_name" content="RAIVO">
+<meta property="og:locale" content="fr_FR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="RAIVO – Conseil digital & automatisation IA à Toulouse | Raphaël Poirier">
+<meta name="twitter:description" content="Conseil en performance digitale, automatisation IA et direction de projet pour TPE, PME et startups. Basé à Toulouse, intervention en France. Premier échange offert.">
+<meta name="twitter:image" content="assets/og-image.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://raivo.fr/#organization",
+      "name": "RAIVO",
+      "alternateName": "RP Performance",
+      "url": "https://raivo.fr/",
+      "description": "Conseil en performance digitale, automatisation IA et direction de projet digital pour TPE, PME et startups.",
+      "founder": { "@type": "Person", "name": "Raphaël Poirier", "jobTitle": "Consultant en performance digitale" },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "6 Place du Président Wilson",
+        "postalCode": "31000",
+        "addressLocality": "Toulouse",
+        "addressCountry": "FR"
+      },
+      "areaServed": "France",
+      "priceRange": "€€",
+      "sameAs": ["https://www.linkedin.com/in/rapha%C3%ABl-poirier/"],
+      "review": [
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Christophe T." },
+          "reviewBody": "L'expertise de Raphaël en performance digitale est très qualitative et clairement orientée résultats. Je recommande sans hésiter."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Thomas B." },
+          "reviewBody": "Une expertise solide, des conseils pertinents et une vraie culture du résultat. Raphaël est un partenaire de confiance pour tous les sujets liés à la performance digitale."
+        },
+        {
+          "@type": "Review",
+          "author": { "@type": "Person", "name": "Agnès P." },
+          "reviewBody": "Excellente expérience de formation. Raphaël sait rendre des sujets parfois complexes simples à comprendre grâce à des exemples concrets et des cas pratiques."
+        }
+      ]
+    },
+    {
+      "@type": "Service",
+      "name": "Direction de projet digital externalisée",
+      "description": "Pour les startups et porteurs de projet qui ont une vision mais pas le chef de projet senior pour la piloter.",
+      "provider": { "@id": "https://raivo.fr/#organization" },
+      "areaServed": "France",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "minPrice": 600,
+          "priceCurrency": "EUR",
+          "description": "Tarif mensuel, à partir de 600 € / mois. Mission courte à partir de 800 €."
+        }
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Système de prospection digitale clé en main",
+      "description": "Pour les TPE, PME et startups qui veulent structurer leur acquisition sans recruter.",
+      "provider": { "@id": "https://raivo.fr/#organization" },
+      "areaServed": "France",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "priceSpecification": { "@type": "PriceSpecification", "minPrice": 1490, "priceCurrency": "EUR" }
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Accélération digitale & IA",
+      "description": "Pour les dirigeants qui veulent gagner du temps et intégrer l'IA sans se perdre dans la technique.",
+      "provider": { "@id": "https://raivo.fr/#organization" },
+      "areaServed": "France",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "priceSpecification": { "@type": "PriceSpecification", "minPrice": 1500, "priceCurrency": "EUR" }
+      }
+    },
+    {
+      "@type": "Service",
+      "name": "Formation & Transmission",
+      "description": "RAIVO intervient en entreprise et en établissements d'enseignement pour rendre les équipes autonomes sur les enjeux digitaux actuels.",
+      "provider": { "@id": "https://raivo.fr/#organization" },
+      "areaServed": "France",
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "priceSpecification": { "@type": "PriceSpecification", "minPrice": 250, "priceCurrency": "EUR" }
+      }
+    }
+  ]
+}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://api.fontshare.com">
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@600,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="rv-progress-track"><div class="rv-progress-bar" data-progress-bar></div></div>
+
+<header class="rv-header" data-header>
+  <div class="rv-header-inner">
+    <a href="#accueil" class="rv-logo" aria-label="RAIVO, accueil">
+      <img src="assets/raivo-logo-wide.svg" alt="Logo RAIVO" width="129" height="31">
+    </a>
+    <nav class="rv-tubelight" data-tubelight aria-label="Navigation principale">
+      <div class="rv-nav-hl" data-nav-highlight aria-hidden="true">
+        <div class="rv-nav-hl-lamp"><span class="g1"></span><span class="g2"></span><span class="g3"></span></div>
+      </div>
+      <a class="rv-nav-item is-active" data-nav-item data-section="accueil" href="#accueil">Accueil</a>
+      <a class="rv-nav-item" data-nav-item data-section="offres" href="#offres">Offres</a>
+      <a class="rv-nav-item" data-nav-item data-section="apropos" href="#apropos">À propos</a>
+      <a class="rv-nav-item" data-nav-item data-section="formations" href="#formations">Formations</a>
+      <a class="rv-nav-item" data-nav-item data-section="methode" href="#methode">Méthode</a>
+      <a class="rv-nav-item" data-nav-item data-section="contact" href="#contact">Contact</a>
+    </nav>
+    <a class="rv-cta-header" href="rendez-vous.html" aria-label="Prendre rendez-vous">Prendre rendez-vous</a>
+    <button type="button" class="rv-burger" data-burger aria-label="Ouvrir le menu" aria-expanded="false">
+      <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true">
+        <path class="icon-close" d="M5 5L19 19M19 5L5 19" stroke="#fff" stroke-width="2" stroke-linecap="round"></path>
+        <path class="icon-open" d="M4 7H20M4 12H20M4 17H20" stroke="#fff" stroke-width="2" stroke-linecap="round"></path>
+      </svg>
+    </button>
+  </div>
+  <div class="rv-mobile-menu" data-mobile-menu>
+    <a href="#accueil" data-mobile-nav-item data-section="accueil">Accueil</a>
+    <a href="#offres" data-mobile-nav-item data-section="offres">Offres</a>
+    <a href="#apropos" data-mobile-nav-item data-section="apropos">À propos</a>
+    <a href="#formations" data-mobile-nav-item data-section="formations">Formations</a>
+    <a href="#methode" data-mobile-nav-item data-section="methode">Méthode</a>
+    <a href="#contact" data-mobile-nav-item data-section="contact">Contact</a>
+    <a href="rendez-vous.html" class="rv-mobile-cta">Prendre rendez-vous</a>
+  </div>
+</header>
+
+<main>
+
+<!-- ============ HERO ============ -->
+<section id="accueil" class="rv-hero">
+  <div class="rv-hero-bg" aria-hidden="true">
+    <div class="rv-stars"></div>
+    <div class="rv-stars s2"></div>
+    <div class="rv-hero-grid"></div>
+    <svg width="780" height="780" viewBox="0 0 100 100" aria-hidden="true" style="position:absolute; right:-160px; top:50%; transform:translateY(-50%); opacity:.07; animation:raivoFloat 13s ease-in-out infinite;"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg>
+    <svg width="120" height="120" viewBox="0 0 100 100" aria-hidden="true" style="position:absolute; left:8%; top:24%; opacity:.18; animation:raivoFloat 9s ease-in-out infinite;"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg>
+    <div class="rv-orb" style="left:60%; top:18%; width:6px; height:6px; background:#b0e9fd; box-shadow:0 0 14px 3px rgba(176,233,253,.7); animation-duration:3s;"></div>
+    <div class="rv-orb" style="left:18%; top:70%; width:5px; height:5px; background:#085cf0; box-shadow:0 0 14px 3px rgba(8,92,240,.7); animation-duration:4s;"></div>
+  </div>
+  <div class="rv-hero-inner">
+    <div class="rv-hero-tag" data-reveal>
+      <svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg>
+      <span>Conseil en performance digitale</span>
+    </div>
+    <h1 data-reveal>Le digital qui performe.<br><span class="grad-text">Pas qui décore.</span></h1>
+    <p class="rv-hero-sub" data-reveal>Conseil, automatisation et direction de projet digital, pour les TPE, PME et startups qui veulent <strong>des résultats.</strong></p>
+    <div class="rv-hero-ctas" data-reveal>
+      <a href="#offres" class="rv-btn rv-btn-outline">Voir les offres →</a>
+      <a href="#contact" class="rv-btn rv-btn-primary">Prendre rendez-vous</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROOF MARQUEE ============ -->
+<section aria-label="Réassurance" class="rv-proof">
+  <div class="rv-marquee-mask">
+    <div class="rv-marquee">
+      <!-- list duplicated twice for seamless loop -->
+      <div class="rv-proof-item"><div><svg width="16" height="16" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg><span class="txt">Basé à Toulouse</span></div><span class="rv-proof-sep"></span></div>
+      <div class="rv-proof-item"><div><svg width="16" height="16" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg><span class="txt">Projets pilotés de A à Z</span></div><span class="rv-proof-sep"></span></div>
+      <div class="rv-proof-item"><div><svg width="16" height="16" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg><span class="txt">Consultant indépendant</span></div><span class="rv-proof-sep"></span></div>
+      <div class="rv-proof-item"><div><svg width="16" height="16" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg><span class="txt">Réponse sous 24h</span></div><span class="rv-proof-sep"></span></div>
+      <div class="rv-proof-item" aria-hidden="true"><div><svg width="16" height="16" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg><span class="txt">Basé à Toulouse</span></div><span class="rv-proof-sep"></span></div>
+      <div class="rv-proof-item" aria-hidden="true"><div><svg width="16" height="16" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg><span class="txt">Projets pilotés de A à Z</span></div><span class="rv-proof-sep"></span></div>
+      <div class="rv-proof-item" aria-hidden="true"><div><svg width="16" height="16" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg><span class="txt">Consultant indépendant</span></div><span class="rv-proof-sep"></span></div>
+      <div class="rv-proof-item" aria-hidden="true"><div><svg width="16" height="16" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg><span class="txt">Réponse sous 24h</span></div><span class="rv-proof-sep"></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ QUI EST RAIVO ============ -->
+<section id="qui" aria-label="Qui est RAIVO ?" class="rv-section">
+  <div class="rv-stars" aria-hidden="true"></div>
+  <svg width="540" height="540" viewBox="0 0 100 100" aria-hidden="true" style="position:absolute; left:-150px; top:-140px; opacity:.05; animation:raivoSpin 70s linear infinite;"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg>
+  <div class="rv-wrap" style="max-width:1100px;">
+    <div class="rv-qui-lead" data-reveal>
+      <span class="rv-eyebrow sky">Qui est RAIVO ?</span>
+      <h2>Un profil pont entre <span class="grad-text">stratégie business</span> et terrain digital</h2>
+      <p>RAIVO accompagne les <strong>TPE, PME et porteurs de projet</strong> dans leur croissance digitale : <strong>acquisition client, automatisation des process</strong> et pilotage de projets complexes.</p>
+    </div>
+
+    <div class="rv-grid-auto">
+      <div class="rv-card" data-reveal>
+        <div class="rv-card-title-row">
+          <div class="rv-icon-badge"><svg width="20" height="20" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg></div>
+          <h3>Ce que RAIVO fait concrètement</h3>
+        </div>
+        <ul class="rv-list-check">
+          <li><svg width="14" height="14" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span><strong>Cadrage de projets digitaux</strong> pour éviter les dérives de périmètre et de budget</span></li>
+          <li><svg width="14" height="14" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span><strong>Structuration des systèmes d'acquisition</strong> (CRM, email, LinkedIn) pour générer des leads qualifiés</span></li>
+          <li><svg width="14" height="14" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span><strong>Intégration de l'IA et de l'automatisation</strong> dans vos process pour libérer du temps</span></li>
+          <li><svg width="14" height="14" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span><strong>Formation des équipes</strong> pour garantir l'autonomie, pas la dépendance</span></li>
+        </ul>
+      </div>
+
+      <div class="rv-card rv-card-tint rv-position-card" data-reveal>
+        <span class="rv-eyebrow sky">Le positionnement RAIVO</span>
+        <h3>Performance et pragmatisme</h3>
+        <p>Chaque mission débouche sur un <strong>livrable concret</strong> : un système configuré, une équipe formée, un périmètre tenu. RAIVO n'intervient pas pour produire des recommandations qui restent dans un tiroir.</p>
+        <p>Basé à <strong>Toulouse</strong>, RAIVO intervient <strong>en France</strong> (distanciel et présentiel) et peut mobiliser un réseau de prestataires spécialisés selon les besoins du projet.</p>
+        <div class="rv-position-tag">
+          <svg width="15" height="15" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg>
+          <span>Logique digitale. Obsession performance.</span>
+        </div>
+      </div>
+    </div>
+    <div class="rv-center-cta" data-reveal>
+      <a href="#contact" class="rv-btn rv-btn-primary rv-btn-sm">Prendre rendez-vous →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ OFFRES ============ -->
+<section id="offres" class="rv-section">
+  <div class="rv-wrap" style="max-width:1200px;">
+    <div class="rv-head" data-reveal>
+      <span class="rv-eyebrow">Les offres</span>
+      <h2>Trois façons de passer à la performance</h2>
+    </div>
+    <div class="rv-grid-auto" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));">
+
+      <div class="rv-card rv-card-hover rv-offer-card" data-reveal>
+        <div class="rv-card-title-row">
+          <div class="rv-icon-badge"><svg width="20" height="20" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg></div>
+          <span class="rv-offer-tag">Direction de projet</span>
+        </div>
+        <h3>Direction de projet digital externalisée</h3>
+        <p>Pour les startups et porteurs de projet qui ont une vision mais pas le chef de projet senior pour la piloter.</p>
+        <ul class="rv-offer-points">
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Cadrage stratégique & arbitrages</span></li>
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Coordination prestataires (dev, design, SEO)</span></li>
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Reporting & ajustements en continu</span></li>
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>L'œil senior que vous n'avez pas en interne</span></li>
+        </ul>
+        <div style="margin-top:auto;">
+          <div class="rv-offer-price"><span>À partir de 600€/mois · Mission courte dès 800€</span></div>
+          <a href="#contact" class="rv-offer-cta">Discutons de votre projet →</a>
+        </div>
+      </div>
+
+      <div class="rv-card rv-card-hover rv-offer-card" data-reveal>
+        <div class="rv-card-title-row">
+          <div class="rv-icon-badge"><svg width="20" height="20" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg></div>
+          <span class="rv-offer-tag">Acquisition digitale</span>
+        </div>
+        <h3>Système de prospection digitale clé en main</h3>
+        <p>Pour les TPE, PME et startups qui veulent structurer leur acquisition sans recruter.</p>
+        <ul class="rv-offer-points">
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Audit stratégie d'acquisition digitale & positionnement</span></li>
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Setup CRM + séquences email/LinkedIn</span></li>
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Outils configurés et documentés</span></li>
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>1 mois de suivi inclus</span></li>
+        </ul>
+        <div style="margin-top:auto;">
+          <div class="rv-offer-price"><span>À partir de 1 490€ en forfait complet</span></div>
+          <a href="#contact" class="rv-offer-cta">Structurer mon acquisition digitale →</a>
+        </div>
+      </div>
+
+      <div class="rv-card rv-card-hover rv-offer-card" data-reveal>
+        <div class="rv-card-title-row">
+          <div class="rv-icon-badge"><svg width="20" height="20" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg></div>
+          <span class="rv-offer-tag">IA & Automatisation</span>
+        </div>
+        <h3>Accélération digitale & IA</h3>
+        <p>Pour les dirigeants qui veulent gagner du temps et intégrer l'IA sans se perdre dans la technique.</p>
+        <ul class="rv-offer-points">
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Audit des process et outils</span></li>
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Intégration automatisations & IA (n8n, ChatGPT...)</span></li>
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Formation équipe pour l'autonomie</span></li>
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>ROI mesurable, périmètre défini</span></li>
+        </ul>
+        <div style="margin-top:auto;">
+          <div class="rv-offer-price"><span>À partir de 1 500€ en mission complète</span></div>
+          <a href="#contact" class="rv-offer-cta">Lancer mon audit →</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="rv-cta-bar" data-reveal>
+      <div class="rv-cta-bar-glow" aria-hidden="true"></div>
+      <div class="rv-cta-bar-inner">
+        <p>Votre site web génère-t-il vraiment des <strong>leads et des clients</strong> ? Création, refonte ou optimisation, RAIVO pilote votre projet de A à Z avec les bons partenaires techniques.</p>
+        <a href="#contact" class="rv-btn-sky">Prendre RDV →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ A PROPOS ============ -->
+<section id="apropos" class="rv-section">
+  <div class="rv-stars" aria-hidden="true"></div>
+  <div class="rv-stars s2" aria-hidden="true"></div>
+  <svg width="500" height="500" viewBox="0 0 100 100" aria-hidden="true" style="position:absolute; left:-140px; bottom:-120px; opacity:.05; animation:raivoSpin 60s linear infinite;"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg>
+  <div class="rv-about">
+    <div class="rv-avatar" data-reveal>
+      <div class="rv-avatar-ring">
+        <img src="assets/raphael-poirier.png?v=2" alt="Portrait de Raphaël Poirier, consultant en performance digitale" width="220" height="220" loading="lazy">
+        <svg width="44" height="44" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg>
+      </div>
+    </div>
+    <div>
+      <div data-reveal>
+        <span class="rv-eyebrow">À propos</span>
+        <h2>Raphaël Poirier<span>, Consultant en performance digitale</span></h2>
+        <p>4 ans à accompagner des dirigeants et des équipes là où la théorie ne suffit pas : <strong>acquisition client, automatisation des process, pilotage de projets digitaux.</strong></p>
+        <p>Je comprends vos <strong>enjeux business</strong> avant de parler outils. Mon approche : tirer le maximum de vos ressources existantes pour atteindre des objectifs ambitieux, <strong>sans tout réinventer, sans budget superflu.</strong></p>
+      </div>
+    </div>
+  </div>
+  <div class="rv-stats-grid" data-reveal>
+    <div class="rv-stat"><span class="num">4 ans</span><span class="label">d'expérience terrain</span></div>
+    <div class="rv-stat"><span class="num">24h</span><span class="label">Réponse garantie</span></div>
+    <div class="rv-stat"><span class="num">48h</span><span class="label">Devis livré</span></div>
+    <div class="rv-stat"><span class="num">1</span><span class="label">Interlocuteur unique</span></div>
+  </div>
+</section>
+
+<!-- ============ FORMATIONS ============ -->
+<section id="formations" aria-label="Formations" class="rv-section">
+  <svg width="480" height="480" viewBox="0 0 100 100" aria-hidden="true" style="position:absolute; left:-140px; bottom:-130px; opacity:.05; animation:raivoSpin 70s linear infinite;"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg>
+  <div class="rv-wrap" style="max-width:1100px;">
+    <div class="rv-head" data-reveal>
+      <span class="rv-eyebrow sky">Formations</span>
+      <h2>Formation &amp; Transmission</h2>
+      <p>RAIVO intervient en entreprise et en établissements d'enseignement pour rendre les équipes autonomes sur les enjeux digitaux actuels.</p>
+    </div>
+    <div class="rv-grid-2">
+      <div class="rv-card" data-reveal>
+        <div class="rv-card-title-row">
+          <div class="rv-icon-badge"><svg width="20" height="20" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg></div>
+          <h3>Thématiques d'intervention</h3>
+        </div>
+        <ul class="rv-list-check">
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Intelligence artificielle appliquée aux métiers (ChatGPT, Claude, automatisation)</span></li>
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Sales digital : prospection LinkedIn, cold email, CRM</span></li>
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Entrepreneuriat et go-to-market digital</span></li>
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Gestion de projet digital : outils et méthodes</span></li>
+          <li><svg width="13" height="13" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg><span>Transformation digitale et conduite du changement</span></li>
+        </ul>
+      </div>
+      <div class="rv-card rv-card-tint" data-reveal>
+        <div class="rv-card-title-row">
+          <div class="rv-icon-badge"><svg width="20" height="20" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg></div>
+          <h3>Formats disponibles</h3>
+        </div>
+        <div class="rv-formats">
+          <div><span class="label">Demi-journée entreprise (3h)</span><span class="price">À partir de 250 €</span></div>
+          <div><span class="label">Journée entreprise</span><span class="price">À partir de 400 €</span></div>
+          <div><span class="label">Module multi-sessions (programme sur mesure)</span><span class="price">À partir de 1 200 €</span></div>
+          <div><span class="label">Intervention école / établissement d'enseignement</span><span class="price">Devis sur demande</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="rv-cta-bar-flat" data-reveal>
+      <p>TVA non applicable, Art. 293B CGI</p>
+      <a href="#contact" class="rv-offer-cta" style="width:auto;">Demander un programme sur mesure →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ POURQUOI ============ -->
+<section id="pourquoi" aria-label="Pourquoi choisir RAIVO ?" class="rv-section">
+  <div class="rv-chart-bg" data-chart aria-hidden="true">
+    <svg viewBox="0 0 1000 520" preserveAspectRatio="none" style="position:absolute; inset:0; width:100%; height:100%;">
+      <defs>
+        <linearGradient id="raivoBgLine" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="rgba(8,92,240,0)"></stop>
+          <stop offset="0.35" stop-color="rgba(8,92,240,.55)"></stop>
+          <stop offset="1" stop-color="#b0e9fd"></stop>
+        </linearGradient>
+        <linearGradient id="raivoBgArea" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="rgba(8,92,240,.16)"></stop>
+          <stop offset="1" stop-color="rgba(8,92,240,0)"></stop>
+        </linearGradient>
+      </defs>
+      <path class="rv-chart-area" d="M-20 520 C 200 506, 330 486, 470 430 C 620 370, 720 300, 850 196 C 920 140, 980 92, 1040 60 L 1040 520 Z" fill="url(#raivoBgArea)"></path>
+      <path class="rv-chart-line" pathLength="1" vector-effect="non-scaling-stroke" d="M-20 520 C 200 506, 330 486, 470 430 C 620 370, 720 300, 850 196 C 920 140, 980 92, 1040 60" fill="none" stroke="url(#raivoBgLine)" stroke-width="2.5" stroke-linecap="round"></path>
+    </svg>
+  </div>
+  <div class="rv-wrap" style="max-width:1200px;">
+    <div class="rv-head" data-reveal>
+      <span class="rv-eyebrow">Pourquoi choisir RAIVO ?</span>
+      <h2>Ce qui distingue RAIVO</h2>
+      <p>Voici ce qui change réellement la donne.</p>
+    </div>
+    <div class="rv-grid-2">
+      <div class="rv-card rv-card-hover rv-reason" data-reveal>
+        <span class="num">01</span>
+        <h3>Des résultats, pas des rapports</h3>
+        <p>Chaque mission RAIVO produit un livrable concret : un outil configuré, un process documenté, une équipe formée. Pas de recommandations théoriques sans suite opérationnelle.</p>
+      </div>
+      <div class="rv-card rv-card-hover rv-reason" data-reveal>
+        <span class="num">02</span>
+        <h3>De la clarté, pas du jargon</h3>
+        <p>Les enjeux techniques sont traduits en décisions business compréhensibles. Le client reste aux commandes, RAIVO fournit les clés.</p>
+      </div>
+      <div class="rv-card rv-card-hover rv-reason" data-reveal>
+        <span class="num">03</span>
+        <h3>Un allié stratégique, pas un simple prestataire</h3>
+        <p>RAIVO s'investit comme si c'était sa propre entreprise. Si une approche ne correspond pas à la réalité du terrain, le cap est ajusté, pas maintenu pour tenir un cahier des charges.</p>
+      </div>
+      <div class="rv-card rv-card-hover rv-reason" data-reveal>
+        <span class="num">04</span>
+        <h3>Un réseau activé au bon moment</h3>
+        <p>Grâce à des partenariats avec des spécialistes du développement web, du SEO et du design, RAIVO mobilise les bonnes compétences selon les besoins, sans multiplier les interlocuteurs pour le client.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ METHODE ============ -->
+<section id="methode" aria-label="La méthode RAIVO" class="rv-section">
+  <div class="rv-stars" aria-hidden="true"></div>
+  <div class="rv-methode-glow" aria-hidden="true"></div>
+  <div class="rv-wrap" style="max-width:1100px;">
+    <div class="rv-head" data-reveal>
+      <span class="rv-eyebrow">La méthode RAIVO</span>
+      <h2>Du premier échange à l'autonomie</h2>
+      <p>Six étapes claires, du cadrage offert au suivi post-mission.</p>
+    </div>
+    <div class="rv-timeline">
+
+      <div class="rv-step" data-reveal>
+        <div class="rv-step-col"><span class="rv-step-line" data-step-line></span><span class="rv-step-node" data-step-node>1</span></div>
+        <div class="rv-step-card"><h3>Cadrage, 30 min offertes</h3><p>Un premier échange pour comprendre votre contexte, vos enjeux et ce qui bloque. Sans engagement, sans jargon.</p></div>
+      </div>
+      <div class="rv-step" data-reveal>
+        <div class="rv-step-col"><span class="rv-step-line" data-step-line></span><span class="rv-step-node" data-step-node>2</span></div>
+        <div class="rv-step-card"><h3>Proposition sur mesure</h3><p>Sous 48h, RAIVO revient avec un périmètre clair, un livrable défini et un tarif transparent. Pas de devis fleuve, une page, une décision.</p></div>
+      </div>
+      <div class="rv-step" data-reveal>
+        <div class="rv-step-col"><span class="rv-step-line" data-step-line></span><span class="rv-step-node" data-step-node>3</span></div>
+        <div class="rv-step-card"><h3>Lancement de la mission</h3><p>La mission démarre sur un périmètre validé ensemble. Les bons outils, les bons intervenants, le bon timing.</p></div>
+      </div>
+      <div class="rv-step" data-reveal>
+        <div class="rv-step-col"><span class="rv-step-line" data-step-line></span><span class="rv-step-node" data-step-node>4</span></div>
+        <div class="rv-step-card"><h3>Exécution & points réguliers</h3><p>Chaque étape est tracée, chaque livrable validé avec vous. Pas de tunnel, vous êtes informé à chaque moment clé.</p></div>
+      </div>
+      <div class="rv-step" data-reveal>
+        <div class="rv-step-col"><span class="rv-step-line" data-step-line></span><span class="rv-step-node" data-step-node>5</span></div>
+        <div class="rv-step-card"><h3>Livraison & transmission</h3><p>Le livrable est remis, documenté, expliqué. Votre équipe sait quoi faire derrière, l'objectif est l'autonomie, pas la dépendance.</p></div>
+      </div>
+      <div class="rv-step" data-reveal>
+        <div class="rv-step-col"><span class="rv-step-node" data-step-node>6</span></div>
+        <div class="rv-step-card"><h3>Suivi post-mission</h3><p>Un point à 30 jours pour mesurer les résultats, ajuster si besoin et identifier la prochaine étape si vous souhaitez continuer.</p></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ STACK OUTILS ============ -->
+<section id="stack" aria-label="Stack outils" class="rv-section">
+  <div class="rv-stack-bg-grid" aria-hidden="true"></div>
+  <div class="rv-wrap" style="max-width:1080px;">
+    <div class="rv-head" data-reveal>
+      <span class="rv-eyebrow sky">Stack outils</span>
+      <h2>La stack outils maîtrisée par RAIVO</h2>
+      <p>Les meilleurs outils du moment, sélectionnés pour leur efficacité, pas pour leur prix.</p>
+    </div>
+    <div class="rv-grid-2" style="align-items:stretch; gap:32px;">
+      <div data-reveal style="min-height:520px;">
+        <img class="rv-stack-photo" src="assets/raphael-poirier.png?v=2" alt="Raphaël Poirier, consultant en performance digitale" width="400" height="400" loading="lazy">
+      </div>
+      <div class="rv-stack-panel" data-reveal data-accordion="single">
+        <div class="rv-stack-row is-open" data-accordion-item data-open="true">
+          <button type="button" class="rv-stack-toggle" data-accordion-toggle aria-expanded="true">
+            <svg width="14" height="14" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg>
+            <span class="cat">IA & LLM</span><span class="count">5</span>
+            <svg class="chevron" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="#b0e9fd" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="rv-stack-panel-inner"><div class="rv-stack-tools" style="min-height:0;">
+            <span>ChatGPT (GPT-4o)</span><span>Claude (Anthropic)</span><span>Gemini</span><span>Mistral AI</span><span>Perplexity</span>
+          </div></div>
+        </div>
+        <div class="rv-stack-row" data-accordion-item data-open="false">
+          <button type="button" class="rv-stack-toggle" data-accordion-toggle aria-expanded="false">
+            <svg width="14" height="14" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg>
+            <span class="cat">Automatisation</span><span class="count">4</span>
+            <svg class="chevron" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="#b0e9fd" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="rv-stack-panel-inner"><div class="rv-stack-tools">
+            <span>n8n (workflows complexes)</span><span>Zapier</span><span>Make</span><span>Phantombuster</span>
+          </div></div>
+        </div>
+        <div class="rv-stack-row" data-accordion-item data-open="false">
+          <button type="button" class="rv-stack-toggle" data-accordion-toggle aria-expanded="false">
+            <svg width="14" height="14" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg>
+            <span class="cat">Sales & CRM</span><span class="count">7</span>
+            <svg class="chevron" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="#b0e9fd" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="rv-stack-panel-inner"><div class="rv-stack-tools">
+            <span>Instantly</span><span>Lemlist</span><span>Waalaxy</span><span>LinkedIn Sales Navigator</span><span>Odoo CRM</span><span>Brevo</span><span>HubSpot</span>
+          </div></div>
+        </div>
+        <div class="rv-stack-row" data-accordion-item data-open="false">
+          <button type="button" class="rv-stack-toggle" data-accordion-toggle aria-expanded="false">
+            <svg width="14" height="14" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg>
+            <span class="cat">Digital & Web</span><span class="count">6</span>
+            <svg class="chevron" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="#b0e9fd" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="rv-stack-panel-inner"><div class="rv-stack-tools">
+            <span>WordPress</span><span>Google Analytics 4</span><span>Search Console</span><span>Figma</span><span>Tally</span><span>Canva</span>
+          </div></div>
+        </div>
+        <div class="rv-stack-row" data-accordion-item data-open="false">
+          <button type="button" class="rv-stack-toggle" data-accordion-toggle aria-expanded="false">
+            <svg width="14" height="14" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg>
+            <span class="cat">Productivité</span><span class="count">5</span>
+            <svg class="chevron" width="15" height="15" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" fill="none" stroke="#b0e9fd" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="rv-stack-panel-inner"><div class="rv-stack-tools">
+            <span>Google Workspace</span><span>Notion</span><span>Trello</span><span>Slack</span><span>Calendly</span>
+          </div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TEMOIGNAGES ============ -->
+<section aria-label="Témoignages" class="rv-section" style="background:var(--blue-deep);">
+  <div class="rv-wrap" style="max-width:1200px;">
+    <div class="rv-head" data-reveal style="margin-bottom:56px;">
+      <span class="rv-eyebrow">Ils en parlent</span>
+      <h2 style="font-size:clamp(30px,4.2vw,48px); letter-spacing:-.8px;">Des résultats, pas des promesses</h2>
+    </div>
+    <div class="rv-grid-auto" style="grid-template-columns:repeat(auto-fit,minmax(300px,1fr));">
+      <div class="rv-testi-card" data-reveal>
+        <div class="rv-testi-stars">
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+        </div>
+        <p>&ldquo;L'expertise de Raphaël en performance digitale est très qualitative et clairement orientée résultats. Je recommande sans hésiter.&rdquo;</p>
+        <div class="rv-testi-who">
+          <div class="rv-testi-avatar">CT</div>
+          <div><span class="name">Christophe T.</span><span class="role">Dirigeant</span></div>
+        </div>
+      </div>
+      <div class="rv-testi-card" data-reveal>
+        <div class="rv-testi-stars">
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+        </div>
+        <p>&ldquo;Une expertise solide, des conseils pertinents et une vraie culture du résultat. Raphaël est un partenaire de confiance pour tous les sujets liés à la performance digitale.&rdquo;</p>
+        <div class="rv-testi-who">
+          <div class="rv-testi-avatar">TB</div>
+          <div><span class="name">Thomas B.</span><span class="role">Dirigeant</span></div>
+        </div>
+      </div>
+      <div class="rv-testi-card" data-reveal>
+        <div class="rv-testi-stars">
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+          <svg width="17" height="17" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#ffc83d"/></svg>
+        </div>
+        <p>&ldquo;Excellente expérience de formation. Raphaël sait rendre des sujets parfois complexes simples à comprendre grâce à des exemples concrets et des cas pratiques.&rdquo;</p>
+        <div class="rv-testi-who">
+          <div class="rv-testi-avatar">AP</div>
+          <div><span class="name">Agnès P.</span><span class="role">Dirigeante</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FAQ (home) ============ -->
+<section id="faq" aria-label="Questions fréquentes" class="rv-section" style="background:linear-gradient(180deg, var(--blue-deep) 0%, var(--navy) 100%);">
+  <div class="rv-wrap" style="max-width:840px;">
+    <div class="rv-head" data-reveal style="margin-bottom:52px;">
+      <span class="rv-eyebrow sky">FAQ</span>
+      <h2>Questions fréquentes</h2>
+    </div>
+    <div style="display:flex; flex-direction:column; gap:14px;" data-accordion="single">
+
+      <div class="rv-faq-item" data-reveal data-accordion-item data-open="true">
+        <button type="button" class="rv-faq-q" data-accordion-toggle aria-expanded="true">
+          <span class="txt">RAIVO intervient-il uniquement sur Toulouse ?</span>
+          <span class="rv-faq-icon" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 100 100"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg></span>
+        </button>
+        <div class="rv-faq-ans"><div class="rv-faq-ans-inner">Non. Basé à Toulouse, RAIVO intervient sur toute la France en distanciel. Les missions en présentiel sont disponibles dans le Sud-Ouest et selon les besoins du projet.</div></div>
+      </div>
+
+      <div class="rv-faq-item" data-reveal data-accordion-item data-open="false">
+        <button type="button" class="rv-faq-q" data-accordion-toggle aria-expanded="false">
+          <span class="txt">Quelle est la durée minimale d'une mission ?</span>
+          <span class="rv-faq-icon" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 100 100"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg></span>
+        </button>
+        <div class="rv-faq-ans"><div class="rv-faq-ans-inner">Il n'y a pas de durée minimale imposée. RAIVO propose des missions courtes (cadrage + livrable dès 800 €) comme des accompagnements récurrents sur plusieurs mois.</div></div>
+      </div>
+
+      <div class="rv-faq-item" data-reveal data-accordion-item data-open="false">
+        <button type="button" class="rv-faq-q" data-accordion-toggle aria-expanded="false">
+          <span class="txt">RAIVO peut-il intervenir sur un projet déjà en cours ?</span>
+          <span class="rv-faq-icon" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 100 100"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg></span>
+        </button>
+        <div class="rv-faq-ans"><div class="rv-faq-ans-inner">Oui. RAIVO réalise régulièrement des audits et reprises de projets existants. Un premier échange de 30 minutes suffit pour évaluer la situation et proposer un plan d'action.</div></div>
+      </div>
+
+      <div class="rv-faq-item" data-reveal data-accordion-item data-open="false">
+        <button type="button" class="rv-faq-q" data-accordion-toggle aria-expanded="false">
+          <span class="txt">Comment se déroule une première prise de contact ?</span>
+          <span class="rv-faq-icon" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 100 100"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg></span>
+        </button>
+        <div class="rv-faq-ans"><div class="rv-faq-ans-inner">Formulaire de contact ou email direct. Un appel de 30 minutes est ensuite calé pour comprendre le contexte, sans engagement.</div></div>
+      </div>
+
+      <div class="rv-faq-item" data-reveal data-accordion-item data-open="false">
+        <button type="button" class="rv-faq-q" data-accordion-toggle aria-expanded="false">
+          <span class="txt">Proposez-vous des formations sur mesure ?</span>
+          <span class="rv-faq-icon" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 100 100"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg></span>
+        </button>
+        <div class="rv-faq-ans"><div class="rv-faq-ans-inner">Oui, chaque intervention est construite selon le contexte, le niveau des équipes et les objectifs visés. Aucun module standard sorti d'un catalogue.</div></div>
+      </div>
+
+      <div class="rv-faq-item" data-reveal data-accordion-item data-open="false">
+        <button type="button" class="rv-faq-q" data-accordion-toggle aria-expanded="false">
+          <span class="txt">RAIVO propose-t-il du développement web ?</span>
+          <span class="rv-faq-icon" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 100 100"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg></span>
+        </button>
+        <div class="rv-faq-ans"><div class="rv-faq-ans-inner">RAIVO pilote des projets web complets (site vitrine, MVP SaaS, refonte) en coordonnant les bons prestataires. Sites à partir de 990 €, SEO à partir de 490 €/mois.</div></div>
+      </div>
+
+    </div>
+    <div class="rv-center-cta" data-reveal>
+      <a href="faq.html" class="rv-btn-pill">Découvrir toutes les questions →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BLOG PREVIEW ============ -->
+<section id="blog-preview" aria-label="Blog RAIVO" class="rv-section" style="background:var(--navy);">
+  <div class="rv-wrap" style="max-width:1200px;">
+    <div class="rv-head" data-reveal style="margin-bottom:56px;">
+      <span class="rv-eyebrow">Blog</span>
+      <h2 style="font-size:clamp(30px,4.2vw,48px); letter-spacing:-.8px;">Le digital décrypté, sans détour</h2>
+    </div>
+    <div class="rv-grid-auto" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); margin-bottom:44px;">
+      <a href="blog.html#derapage-projets-digitaux" class="rv-blogcard" data-reveal>
+        <span class="cat">Direction de projet</span>
+        <h3>Pourquoi 70 % des projets digitaux dérapent (et comment l'éviter)</h3>
+        <p>Un dirigeant lance un projet avec une vision claire. Six mois plus tard, le budget a doublé et le résultat ne ressemble plus à l'idée de départ. Ce n'est pas une fatalité.</p>
+        <span class="link">Lire l'article →</span>
+      </a>
+      <a href="blog.html#prospection-linkedin" class="rv-blogcard" data-reveal>
+        <span class="cat">Prospection & Sales</span>
+        <h3>Prospection LinkedIn : pourquoi la majorité des séquences ne convertissent pas</h3>
+        <p>Des centaines d'entreprises lancent des séquences LinkedIn chaque mois. Une minorité obtient des résultats. La différence ne tient presque jamais à l'outil.</p>
+        <span class="link">Lire l'article →</span>
+      </a>
+      <a href="blog.html#ia-pme" class="rv-blogcard" data-reveal>
+        <span class="cat">Automatisation & IA</span>
+        <h3>IA en entreprise : pourquoi la majorité des PME passent à côté du sujet</h3>
+        <p>Quelques collaborateurs utilisent l'IA de façon informelle, pendant que l'entreprise passe à côté de gains de productivité bien réels. Voici comment s'y prendre.</p>
+        <span class="link">Lire l'article →</span>
+      </a>
+    </div>
+    <div class="rv-center-cta" data-reveal style="margin-top:0;">
+      <a href="blog.html" class="rv-btn-pill">Voir tous les articles →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section id="contact" class="rv-section">
+  <div class="rv-stars" aria-hidden="true"></div>
+  <div class="rv-stars s2" aria-hidden="true"></div>
+  <svg width="620" height="620" viewBox="0 0 100 100" aria-hidden="true" style="position:absolute; right:-180px; top:-120px; opacity:.05; animation:raivoFloat 16s ease-in-out infinite;"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#b0e9fd"/></svg>
+  <div class="rv-wrap" style="max-width:1100px;">
+    <div class="rv-head" data-reveal style="margin-bottom:56px;">
+      <span class="rv-eyebrow sky">Contact</span>
+      <h2 style="font-weight:700; font-size:clamp(36px,5vw,58px); line-height:1.05; letter-spacing:-1px;">On en parle ?</h2>
+      <p style="max-width:560px; margin:0 auto; font-size:18px; line-height:1.55;">Pas de rendez-vous commercial. Une vraie conversation pour voir si je peux vous aider.</p>
+    </div>
+    <div class="rv-grid-auto" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr));">
+      <div class="rv-card rv-contact-card" data-reveal>
+        <h3 style="font-size:22px; margin:0 0 24px;">Envoyez un message</h3>
+        <div class="rv-tally-wrap">
+          <iframe data-tally-src="https://tally.so/embed/PdgLl5?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="408" frameborder="0" marginheight="0" marginwidth="0" title="Envoyez un message"></iframe>
+        </div>
+      </div>
+      <div class="rv-card rv-card-tint rv-contact-card" data-reveal style="overflow:hidden;">
+        <h3 style="font-size:22px; margin:0 0 8px;">Réservez un créneau</h3>
+        <p style="margin:0 0 24px; font-size:14.5px; color:rgba(255,255,255,.65);">Un échange de 30 minutes, directement dans mon agenda.</p>
+        <div class="rv-calendly-wrap">
+          <div class="rv-calendly-loading" aria-hidden="true">
+            <svg width="42" height="42" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 0 C50 42 58 50 100 50 C58 50 50 58 50 100 C50 58 42 50 0 50 C42 50 50 42 50 0 Z" fill="#085cf0"/></svg>
+            <span>Chargement du calendrier…</span>
+          </div>
+          <div class="calendly-inline-widget" data-url="https://calendly.com/raphael-raivo/rdv-decouverte-raivo" style="position:absolute; inset:0; min-width:320px; height:100%;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="rv-footer">
+  <div class="rv-footer-glow" aria-hidden="true"></div>
+  <div class="rv-stars" aria-hidden="true"></div>
+  <img src="assets/raivo-logo-wide.svg" alt="" aria-hidden="true" width="1280" height="308" loading="lazy" class="rv-footer-watermark">
+  <div class="rv-footer-inner">
+    <div class="rv-footer-top">
+      <div class="rv-footer-brand">
+        <img src="assets/raivo-logo-wide.svg" alt="Logo RAIVO" width="150" height="36">
+        <p>Logique digitale. Obsession performance.</p>
+      </div>
+      <div class="rv-footer-cols">
+        <div class="rv-footer-col">
+          <span class="head">Navigation</span>
+          <a href="#accueil">Accueil</a>
+          <a href="#offres">Offres</a>
+          <a href="#apropos">À propos</a>
+          <a href="#formations">Formations</a>
+          <a href="#methode">Méthode</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="rv-footer-col">
+          <span class="head">Légal</span>
+          <a href="mentions-legales.html">Mentions légales & confidentialité</a>
+          <a href="https://www.linkedin.com/in/rapha%C3%ABl-poirier/" target="_blank" rel="noopener" aria-label="LinkedIn RAIVO">LinkedIn ↗</a>
+        </div>
+      </div>
+    </div>
+    <div class="rv-footer-bottom">
+      <span>TVA non applicable, Art. 293B CGI · RAIVO, RP Performance · Toulouse</span>
+      <span>© 2026 RAIVO. Tous droits réservés.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<script src="https://tally.so/widgets/embed.js" async></script>
+<script src="js/main.js"></script>
+</body>
+</html>
