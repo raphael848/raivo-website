@@ -337,7 +337,7 @@ button { font-family: inherit; }
 .rv-center-cta { text-align: center; margin-top: 52px; }
 
 /* ---------------- Offres ---------------- */
-#offres { background: linear-gradient(180deg, var(--blue-deep) 0%, var(--navy) 60%); }
+.rv-section#offres { background: linear-gradient(180deg, var(--blue-deep) 0%, var(--navy) 60%); }
 .rv-offer-card { position: relative; display: flex; flex-direction: column; padding: 36px 30px; }
 .rv-offer-card h3 { font-weight: 600; font-size: 23px; line-height: 1.18; letter-spacing: -.3px; margin: 0 0 14px; }
 .rv-offer-card > p { font-size: 14.5px; line-height: 1.6; color: rgba(255,255,255,.62); margin: 0 0 24px; }
