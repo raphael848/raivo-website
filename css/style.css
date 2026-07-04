@@ -767,7 +767,7 @@ button { font-family: inherit; }
 /* ============================================================
    FAQ PAGE
    ============================================================ */
-.faq-page-bg { position: relative; min-height: 100vh; background: linear-gradient(180deg, var(--navy) 0%, var(--blue-deep) 22%, var(--navy) 46%); overflow: hidden; }
+.faq-page-bg { position: relative; min-height: 100vh; background: linear-gradient(180deg, var(--navy) 0%, var(--blue-deep) 15%, var(--navy) 100%); overflow: hidden; }
 .faq-hero { position: relative; padding: 150px 24px clamp(40px,5vw,60px); overflow: hidden; }
 .faq-hero-inner { position: relative; max-width: 820px; margin: 0 auto; text-align: center; }
 .faq-hero h1 { font-weight: 700; font-size: clamp(34px,5.4vw,58px); line-height: 1.08; letter-spacing: -1px; margin: 16px 0 20px; }
