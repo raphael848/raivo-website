@@ -405,8 +405,8 @@ button { font-family: inherit; }
 .rv-stat .label { font-size: 14.5px; font-weight: 500; line-height: 1.45; color: rgba(255,255,255,.72); }
 
 /* ---------------- Formations ---------------- */
-#formations { background: linear-gradient(180deg, var(--navy) 0%, var(--blue-deep) 22%, var(--navy) 100%); }
-#formations .rv-card { padding: 36px 34px; }
+.rv-section#formations { background: linear-gradient(180deg, var(--navy) 0%, var(--blue-deep) 22%, var(--navy) 100%); }
+.rv-section#formations .rv-card { padding: 36px 34px; }
 .rv-formats { display: flex; flex-direction: column; }
 .rv-formats > div {
   display: flex; align-items: center; justify-content: space-between; gap: 18px;
