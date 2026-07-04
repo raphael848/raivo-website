@@ -77,12 +77,14 @@
           if (single && !isOpen) {
             items.forEach((other) => {
               other.setAttribute('data-open', 'false');
+              other.classList.remove('is-open');
               const t = other.querySelector('[data-accordion-toggle]');
               if (t) t.setAttribute('aria-expanded', 'false');
             });
           }
           const next = !isOpen;
           item.setAttribute('data-open', String(next));
+          item.classList.toggle('is-open', next);
           toggle.setAttribute('aria-expanded', String(next));
         });
       });
