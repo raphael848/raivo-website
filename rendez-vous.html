@@ -9,18 +9,58 @@
 <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="refresh" content="0; url=https://calendly.com/raphael-raivo/rdv-decouverte-raivo">
+<link rel="stylesheet" href="css/style.css">
 <style>
-  html, body { margin: 0; height: 100%; background: #060b35; font-family: 'Raleway', system-ui, sans-serif; }
-  body { display: flex; align-items: center; justify-content: center; text-align: center; padding: 24px; }
-  p { color: rgba(255,255,255,.72); font-size: 15px; }
-  a { color: #b0e9fd; font-weight: 600; }
+  html, body { margin: 0; min-height: 100%; background: #060b35; font-family: 'Raleway', system-ui, sans-serif; }
+  body { color: #fff; }
+  .rv-redirect-shell {
+    min-height: calc(100vh - 220px);
+    display: grid;
+    place-items: center;
+    padding: 40px 24px 24px;
+    text-align: center;
+  }
+  .rv-redirect-shell p { color: rgba(255,255,255,.72); font-size: 15px; line-height: 1.7; margin: 0; }
+  .rv-redirect-shell a { color: #b0e9fd; font-weight: 600; }
 </style>
 <script>
   window.location.replace('https://calendly.com/raphael-raivo/rdv-decouverte-raivo');
 </script>
 </head>
 <body>
-  <p>Redirection vers Calendly… <a href="https://calendly.com/raphael-raivo/rdv-decouverte-raivo">cliquez ici si la redirection ne se fait pas automatiquement</a>.</p>
+  <main class="rv-redirect-shell">
+    <p>Redirection vers Calendly… <a href="https://calendly.com/raphael-raivo/rdv-decouverte-raivo">cliquez ici si la redirection ne se fait pas automatiquement</a>.</p>
+  </main>
+
+  <footer class="rv-footer">
+    <div class="rv-footer-glow" aria-hidden="true"></div>
+    <div class="rv-stars" aria-hidden="true"></div>
+    <img src="assets/raivo-logo-wide.svg" alt="" aria-hidden="true" width="1280" height="308" loading="lazy" class="rv-footer-watermark">
+    <div class="rv-footer-inner">
+      <div class="rv-footer-top">
+        <div class="rv-footer-brand">
+          <img src="assets/raivo-logo-wide.svg" alt="Logo RAIVO" width="150" height="36">
+          <p>Logique digitale. Obsession performance.</p>
+        </div>
+        <div class="rv-footer-cols">
+          <div class="rv-footer-col">
+            <span class="head">Contact</span>
+            <a href="mailto:raphael@raivo.fr">raphael@raivo.fr</a>
+            <a href="tel:+33781659331">07 81 65 93 31</a>
+          </div>
+          <div class="rv-footer-col">
+            <span class="head">Légal</span>
+            <a href="mentions-legales.html">Mentions légales & confidentialité</a>
+            <a href="https://www.linkedin.com/in/rapha%C3%ABl-poirier/" target="_blank" rel="noopener" aria-label="LinkedIn RAIVO">LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+      <div class="rv-footer-bottom">
+        <span>TVA non applicable, Art. 293B CGI · RAIVO, RP Performance · Toulouse</span>
+        <span>© 2026 RAIVO. Tous droits réservés.</span>
+      </div>
+    </div>
+  </footer>
 
 <script>
 window.axeptioSettings = {
