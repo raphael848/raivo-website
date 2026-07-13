@@ -41,6 +41,22 @@
   /* ---------------- reveal on scroll ---------------- */
   function initReveals(root) {
     const scope = root || document;
+    const revealTargets = [
+      '.service-breadcrumb',
+      '.service-hero .rv-eyebrow',
+      '.service-hero h1',
+      '.service-hero-card',
+      '.service-section-head',
+      '.service-card',
+      '.service-related-card',
+      '.service-cta-card',
+      '.service-faq .rv-faq-item'
+    ];
+    revealTargets.forEach((selector) => {
+      scope.querySelectorAll(selector).forEach((el) => {
+        if (!el.hasAttribute('data-reveal')) el.setAttribute('data-reveal', '');
+      });
+    });
     const els = Array.from(scope.querySelectorAll('[data-reveal]:not(.is-revealed)'));
     if (!els.length) return;
     const reveal = (el) => el.classList.add('is-revealed');
